@@ -11,54 +11,32 @@ const About = () => {
       { name: 'C#', highlight: true },
       { name: 'JavaScript', highlight: true },
       { name: 'TypeScript', highlight: true },
-      { name: 'Assembly (x86/x86-64)', highlight: true },
-      { name: 'Prolog', highlight: true },
-      { name: 'Lisp', highlight: true },
-      { name: 'MATLAB', highlight: true },
-      { name: 'Bash', highlight: true },
       { name: 'SQL', highlight: true },
-      { name: 'Lua', highlight: true },
-      { name: 'AWK', highlight: true }
+      { name: 'Bash', highlight: true }
     ],
     frontend: [
-      { name: 'React', highlight: true },
       { name: 'Vue', highlight: true },
+      { name: 'React', highlight: true },
+      { name: 'Next.js', highlight: true },
       { name: 'Tailwind CSS', highlight: true },
-      { name: 'HTML', highlight: true },
-      { name: 'Markdown', highlight: true },
-      { name: 'CommonMark', highlight: true }
+      { name: 'HTML', highlight: true }
     ],
-    backend: [
+    backendAndDatabases: [
+      { name: 'Spring Boot', highlight: true },
       { name: 'Django', highlight: true },
+      { name: 'Fastify', highlight: true },
       { name: 'ASP.NET Core', highlight: true },
-      { name: 'Django REST API', highlight: true }
-    ],
-    databases: [
       { name: 'PostgreSQL', highlight: true },
-      { name: 'SQLite', highlight: true },
-      { name: 'Microsoft SQL Server', highlight: true },
+      { name: 'Redis', highlight: true },
       { name: 'MongoDB', highlight: true }
     ],
-    other: [
-      { name: 'Entity Framework', highlight: true },
-      { name: 'TypeORM', highlight: true },
+    toolsAndDevops: [
+      { name: 'Apache Spark', highlight: true },
       { name: 'Git', highlight: true },
+      { name: 'Docker', highlight: true },
+      { name: 'Prisma', highlight: true },
       { name: 'Vercel', highlight: true },
-      { name: 'Unix Shell', highlight: true },
-      { name: 'npm', highlight: true },
-      { name: 'pnpm', highlight: true },
-      { name: 'PyTest', highlight: true },
-      { name: 'Vitest', highlight: true },
-      { name: 'Moq', highlight: true },
-      { name: 'Firebase', highlight: true },
-      { name: 'Unity', highlight: true }
-    ],
-    ml: [
-      { name: 'TensorFlow', highlight: true },
-      { name: 'PyTorch', highlight: true },
-      { name: 'scikit-learn', highlight: true },
-      { name: 'pandas', highlight: true },
-      { name: 'NumPy', highlight: true }
+      { name: 'Unix Shell', highlight: true }
     ]
   };
 
@@ -115,7 +93,7 @@ const About = () => {
                 <h4 className="font-medium">Colegiul Național Nagy Mózes din Targu Secuiesc <span className="text-muted-foreground">(Graduated 2023)</span></h4>
                 <ul className="text-muted-foreground list-disc list-inside">
                   <li>2nd Prize in OTI 2023 (C#)</li>
-                  <li>Participated in numerous mathematics and programming competitions</li>
+                  <li>Participated in numerous regional mathematics and programming competitions</li>
                 </ul>
               </div>
             </div>
@@ -125,7 +103,6 @@ const About = () => {
               <ul className="text-muted-foreground">
                 <li>Hungarian (Native)</li>
                 <li>English (Cambridge C1 Certified)</li>
-                <li>Romanian (Comprehension)</li>
               </ul>
             </div>
           </div>
@@ -138,13 +115,9 @@ const About = () => {
               <Separator />
               <SkillCategory title="Frontend" skills={skills.frontend} />
               <Separator />
-              <SkillCategory title="Backend" skills={skills.backend} />
+              <SkillCategory title="Backend & Databases" skills={skills.backendAndDatabases} />
               <Separator />
-              <SkillCategory title="Databases" skills={skills.databases} />
-              <Separator />
-              <SkillCategory title="ML/Data Science" skills={skills.ml} />
-              <Separator />
-              <SkillCategory title="Other Tools & Technologies" skills={skills.other} />
+              <SkillCategory title="Tools & DevOps" skills={skills.toolsAndDevops} />
             </div>
           </div>
         </div>

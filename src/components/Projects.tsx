@@ -16,37 +16,26 @@ interface Project {
 const Projects = () => {
   const projects: Project[] = [
     {
-      title: "Full-Stack Events Manager",
-      description: "A web application with Vue frontend and Django REST API backend, integrated with PostgreSQL database. Built using modern development practices with Vite.",
-      tech: ["Vue", "Django REST API", "PostgreSQL", "Vite"],
+      title: "E-Commerce Hybrid Recommendation System",
+      description: "Engineered a scalable hybrid recommendation engine integrating Alternating Least Squares (ALS) collaborative filtering and GRU neural networks for session-based modeling. Developed a price-adaptive re-ranking layer and architected a containerized data flow using Spark for batch processing and Spring Boot API.",
+      tech: ["Java", "Apache Spark", "Spring Boot", "Redis", "PostgreSQL"],
+    },
+    {
+      title: "Fixar Marketplace Platform",
+      description: "Developing a dual-language tradesperson marketplace utilizing Next.js App Router for SEO-optimized SSR and a Fastify backend. Architected an ad-style listing system using Prisma and PostgreSQL, and implemented real-time bidirectional chat messaging via Socket.io.",
+      tech: ["Next.js 14", "Fastify", "Prisma", "PostgreSQL", "Socket.io"],
       inProgress: true,
+    },
+    {
+      title: "Events Manager",
+      description: "Developed a scalable, production-ready web application for event management with a Vue frontend and Django backend. Engineered advanced features including real-time updates via WebSockets, chunked file uploads, and secure user authentication with role-based access control.",
+      tech: ["Vue 3", "TypeScript", "Django REST API", "PostgreSQL", "Redis"],
     },
     {
       title: "Hospital Management Application",
-      description: "A WinUI application using C# and MVVM architecture, working in a team environment with defined milestones. Implements complex business logic for hospital management.",
-      tech: ["C#", "WinUI", "MVVM"],
-      inProgress: true,
-    },
-    {
-      title: "Toy Language Interpreter",
-      description: "A language interpreter developed in Java, implementing lexical analysis and interpretation phases. Demonstrates understanding of compiler design principles.",
-      tech: ["Java", "Compiler Design"],
-    },
-    {
-      title: "Concurrent Client Chat Application",
-      description: "A console-based chat application supporting multiple concurrent clients, implemented in Python with socket programming and threading. Focuses on handling race conditions and ensuring thread safety.",
-      tech: ["Python", "Sockets", "Threading"],
-    },
-    {
-      title: "Snake Game",
-      description: "A console-based Snake game developed in Python, implementing game mechanics, collision detection, and score tracking.",
-      tech: ["Python", "Game Development"],
-    },
-    {
-      title: "Unity Chess Variant",
-      description: "A custom chess variant designed and implemented using Unity game engine. Applied object-oriented design principles and game development patterns.",
-      tech: ["Unity", "C#", "Game Development"],
-    },
+      description: "Built a comprehensive desktop application utilizing C# and the MVVM architectural pattern. Collaborated effectively in a team environment to hit defined milestones, successfully implementing complex business logic.",
+      tech: ["C#", "WinUI", "MVVM Architecture"],
+    }
   ];
 
   return (
