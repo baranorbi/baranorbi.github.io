@@ -35,11 +35,13 @@ const Contact = () => {
             </a>
             
             <a 
-              href="#" 
+              href="https://linkedin.com/in/bara-norbert" 
+              target="_blank" 
+              rel="noopener noreferrer" 
               className="flex items-center space-x-2 text-foreground hover:text-[#9b87f5] transition-colors"
             >
               <Linkedin size={20} />
-              <span>LinkedIn</span>
+              <span>linkedin.com/in/bara-norbert</span>
             </a>
           </div>
           

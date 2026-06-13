@@ -17,18 +17,18 @@ const Projects = () => {
   const projects: Project[] = [
     {
       title: "E-Commerce Hybrid Recommendation System",
-      description: "Engineered a scalable hybrid recommendation engine integrating Alternating Least Squares (ALS) collaborative filtering and GRU neural networks for session-based modeling. Developed a price-adaptive re-ranking layer and architected a containerized data flow using Spark for batch processing and Spring Boot API.",
+      description: "Engineered a scalable hybrid recommendation engine integrating Alternating Least Squares (ALS) collaborative filtering and GRU neural networks for session-based modeling. Developed a price-adaptive re-ranking layer to align recommendations with user affordability constraints, significantly increasing NDCG and catalog recall. Architected a containerized data flow, utilizing Spark for batch processing and a Spring Boot REST API backed by PostgreSQL and Redis for low-latency delivery.",
       tech: ["Java", "Apache Spark", "Spring Boot", "Redis", "PostgreSQL"],
     },
     {
       title: "Fixar Marketplace Platform",
-      description: "Developing a dual-language tradesperson marketplace utilizing Next.js App Router for SEO-optimized SSR and a Fastify backend. Architected an ad-style listing system using Prisma and PostgreSQL, and implemented real-time bidirectional chat messaging via Socket.io.",
+      description: "Developing a dual-language tradesperson marketplace utilizing Next.js App Router for SEO-optimized SSR and a Fastify backend. Architected an ad-style listing system for tradespeople, managing relational data and queries with Prisma and PostgreSQL. Implemented real-time bidirectional chat messaging between clients and tradespeople utilizing Socket.io.",
       tech: ["Next.js 14", "Fastify", "Prisma", "PostgreSQL", "Socket.io"],
       inProgress: true,
     },
     {
       title: "Events Manager",
-      description: "Developed a scalable, production-ready web application for event management with a Vue frontend and Django backend. Engineered advanced features including real-time updates via WebSockets, chunked file uploads, and secure user authentication with role-based access control.",
+      description: "Developed a scalable, production-ready web application for event management with a Vue frontend and Django backend. Engineered advanced features including real-time updates via WebSockets and chunked file uploads for large media. Implemented secure user authentication with role-based access control and an automated security monitoring background thread.",
       tech: ["Vue 3", "TypeScript", "Django REST API", "PostgreSQL", "Redis"],
     },
     {
