@@ -17,31 +17,23 @@ const Contact = () => {
           
           <div className="flex flex-col md:flex-row gap-6 justify-center pt-4">
             <a 
-              href="mailto:baranorbi12@gmail.com" 
-              className="flex items-center space-x-2 text-foreground hover:text-[#9b87f5] transition-colors"
-            >
-              <Mail size={20} />
-              <span>baranorbi12@gmail.com</span>
-            </a>
-            
-            <a 
               href="https://github.com/baranorbi" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="flex items-center space-x-2 text-foreground hover:text-[#9b87f5] transition-colors"
             >
               <Github size={20} />
-              <span>github.com/baranorbi</span>
+              <span>GitHub</span>
             </a>
             
             <a 
               href="https://www.linkedin.com/in/bara-norbert-949365363/" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="flex items-center space-x-2 text-foreground hover:text-[#9b87f5] transition-colors"
+              className="flex items-center space-x-2 text-foreground hover:text-[#9b87f5] transition-colors whitespace-nowrap"
             >
               <Linkedin size={20} />
-              <span>linkedin.com/in/bara-norbert-949365363</span>
+              <span>LinkedIn</span>
             </a>
           </div>
           
